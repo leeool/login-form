@@ -6,6 +6,7 @@
   font-size: 2rem;
   padding: 10px 20px;
   border-radius: 11px;
+  z-index: 1;
 }
 
 .input-text input:focus{
@@ -32,6 +33,7 @@
   cursor: text;
   transition: .2s bottom;
   text-align: center;
+  z-index: 2;
 }
 
 .form img {
@@ -55,15 +57,16 @@
 }
 
 .password-validation-form{
+  position: absolute;
   font-size: 1.7rem;
   color: #ff0000;
-  display: none;
-  grid-column: 1/-1;
-  margin-left: 10px;
-  margin-top: -10px;
+  bottom: 175px;
+  visibility: hidden;
+  transition: .3s bottom;
+  left: 50px;
 }
 
 .show-validation {
-  display: block;
-  bottom: -28px;
+  visibility: visible;
+  bottom: 150px;
 }
