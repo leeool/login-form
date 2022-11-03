@@ -31,6 +31,7 @@
   left: 21px;
   cursor: text;
   transition: .2s bottom;
+  text-align: center;
 }
 
 .form img {
@@ -39,6 +40,7 @@
   right: 10px;
   bottom: 13px;
   transition: .1s;
+  pointer-events: none;
 }
 
 .active {
