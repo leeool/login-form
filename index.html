@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Login Form Validation</title>
+</head>
+
+<body>
+  <main>
+    <div class="card">
+      <h1>Welcome Back, User!</h1>
+      <form action="./" class="form">
+        <div class="email-form input-text">
+          <label for="email" class="">
+            Email
+          </label>
+          <input type="email" id="email" autocomplete="off">
+          <img src="./src/@.svg" alt="" class="">
+        </div>
+        <div class="password-form input-text">
+          <label for="password" class="">
+            Password
+          </label>
+          <input type="text" id="password">
+          <img src="./src/lock.svg" alt="" class="">
+        </div>
+        <span class="password-validation-form">Senha Invalida</span>
+        <div class="remember">
+          <input type="checkbox" id="Remember">
+          <label for="Remember">Remember Me</label>
+        </div>
+        <a href="./">Recovery Password</a>
+        <button>Login</button>
+      </form>
+    </div>
+
+  </main>
+  <script src="label.js"></script>
+  <script src="validation.js"></script>
+</body>
+
+</html>

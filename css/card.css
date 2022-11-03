@@ -1,0 +1,70 @@
+.card{
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  height: 450px;
+}
+
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card h1 {
+  margin-bottom: 45px;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.email-form, .password-form{
+  grid-column: 1/-1;
+}
+
+.form a {
+  text-align: right;
+  font-size: 1.6rem;
+  color: #ff1616;
+}
+
+.form a:hover{
+  color: #ff7c7c;
+}
+
+.remember{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.6rem;
+}
+
+.remember input{
+  width: 20px;
+  height: 20px;
+}
+
+.remember, a {
+  margin-top: 16px;
+}
+
+button{
+  grid-column: 1/-1;
+  margin-top: 20px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: #FF6464;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #ff7474;
+}
+
