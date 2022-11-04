@@ -10,6 +10,7 @@ main {
   border-radius: 10px;
   min-width: 350px;
   max-width: 500px;
+  box-shadow: 8px 8px 6px -5px rgba(0, 0, 0, 0.36);
 }
 
 @media (width <= 600px) {
@@ -110,7 +111,7 @@ main {
 }
 
 .remember,
-a {
+.form a {
   margin-top: 16px;
 }
 
